@@ -1,5 +1,34 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.App {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.App-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+input {
+  margin: 10px;
+}
+
+.list-group {
+  margin-top: 10px;
+}
+
+.reminder-form {
+  padding: 5px;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.delete-button {
+  cursor: pointer;
+  float: right;
+  padding-left: 5px;
 }
